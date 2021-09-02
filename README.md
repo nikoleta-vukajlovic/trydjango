@@ -1,3 +1,3 @@
 # trydjango
 
-DJango tutorial
+Django tutorial
