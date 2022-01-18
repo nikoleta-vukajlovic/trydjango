@@ -1,8 +1,6 @@
 from .models import Course
 from django import forms
 
-
-
 class CourseModelForm(forms.ModelForm):
     class Meta:
         model = Course
