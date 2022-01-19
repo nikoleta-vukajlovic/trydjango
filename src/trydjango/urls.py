@@ -19,6 +19,7 @@ from django.urls import path, include
 from pages.views import home_view, contact_view, about_view
 from products.views import render_initial_data, product_detail_view, product_delete_view, product_list_view
 
+
 urlpatterns = [
     path('products/', include('products.urls')),
     path('blog/', include('blog.urls')),
