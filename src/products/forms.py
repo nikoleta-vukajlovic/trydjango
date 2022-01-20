@@ -21,7 +21,6 @@ class ProductForm(forms.ModelForm):
             'description',
             'price'
         ]
-        
 
     def clean_title(self, *args, **kwargs):
         title = self.cleaned_data.get("title")
